@@ -1,0 +1,11 @@
+# Ignore uploaded documents
+/uploads/*
+!/uploads/.htaccess
+!/uploads/.gitkeep
+
+# Ignore local admin setup script
+/make_admin.php
+
+# Ignore secrets and logs
+.env
+*.log
