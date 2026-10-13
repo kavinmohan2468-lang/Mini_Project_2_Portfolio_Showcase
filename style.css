@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f3f6fa;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9ec5fe;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+.card {
+    padding: 24px;
+    border: 1px solid #e2e7ef;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 2px 7px #00000009;
+}
+
+.auth {
+    max-width: 460px;
+    margin: 25px auto;
+}
+
+.auth h1 {
+    text-align: center;
+    color: #0d6efd;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input:not([type=hidden]), select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #bfc8d4;
+    border-radius: 5px;
+    font: inherit;
+    background: white;
+}
+
+textarea {
+    min-height: 110px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #86b7fe;
+}
+
+.assignment {
+    border-bottom: 1px solid #e3e8ef;
+    padding: 16px 0;
+}
+
+.assignment:last-child {
+    border: 0;
+}
+
+.description {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.stat {
+    background: #0d6efd;
+    color: white;
+}
+
+.stat strong {
+    font-size: 2rem;
+}
+
+td {
+    min-width: 110px;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    padding: 18px;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #e2e7ef;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 16px;
+    }
+
+    .auth {
+        margin: 0 auto;
+    }
+}
